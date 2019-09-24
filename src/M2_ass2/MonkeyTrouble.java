@@ -28,7 +28,13 @@ public class MonkeyTrouble {
      */
     public static boolean monkeyTrouble(boolean aSmile, boolean bSmile) {
         // Your code goes here....
-        return(aSmile==bSmile);
+        if(aSmile==bSmile){
+            return true;
+        }
+        else{
+            return false;
+        }
+
 
     }
 }
