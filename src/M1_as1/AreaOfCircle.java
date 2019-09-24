@@ -19,7 +19,7 @@ public class AreaOfCircle {
     public static double areaOfCircle(double radius) {
         //  Your code goes here....
 
-        int areaOfCircle = PI*radius*radius;
+        double areaOfCircle = PI*radius*radius;
         return areaOfCircle;
     }
 
@@ -32,7 +32,7 @@ public class AreaOfCircle {
      */
     public static double perimeterOfCircle(double radius) {
         //  Your code goes here....
-        int perimeterOfCircle = 2*PI*radius;
+        double perimeterOfCircle = 2*PI*radius;
         return perimeterOfCircle;
     }
 }
